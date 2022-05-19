@@ -1,7 +1,7 @@
 FROM node:16
 # Installing libvips-dev for sharp compatability
 RUN apt-get update -y && apt-get install libvips-dev -y
-ARG NODE_ENV=development
+ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 WORKDIR /opt/
 COPY ./package.json ./
@@ -13,4 +13,4 @@ WORKDIR /opt/app
 COPY ./ .
 RUN yarn build
 EXPOSE 1337
-CMD ["yarn", "develop"]
+CMD ["yarn", "start"]
