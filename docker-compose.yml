@@ -22,6 +22,7 @@ services:
       - ./package.json:/opt/package.json
       - ./yarn.lock:/opt/yarn.lock
       - ./.env:/opt/app/.env
+      - voidimp-cms-pdv:/opt/app/public
     ports:
       - "1337:1337"
     networks:
@@ -39,7 +40,7 @@ services:
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
       POSTGRES_DB: ${DATABASE_NAME}
     volumes:
-      - voidimp-cms-data-volume:/var/lib/postgresql/data/
+      - voidimp-cms-ddv:/var/lib/postgresql/data/
     ports:
       - "5432:5432"
     networks:
@@ -51,5 +52,7 @@ networks:
     driver: bridge
 
 volumes:
-  voidimp-cms-data-volume:
+  voidimp-cms-pdv:
+    external: true
+  voidimp-cms-ddv:
     external: true
