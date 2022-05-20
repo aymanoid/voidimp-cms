@@ -57,7 +57,7 @@ services:
       - strapi
     volumes:
       - ./data/nginx/sites-available:/etc/nginx/sites-available
-      - ./data/ssl:/data/ssl
+      - ./data/ssl:/etc/ssl
 
 networks:
   strapi:

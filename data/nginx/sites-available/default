@@ -18,8 +18,8 @@ server {
     server_name cms.voidimp.com;
 
     # SSL config
-    ssl_certificate /data/ssl/voidimp-cms-ssl.pem;
-    ssl_certificate_key /data/ssl/voidimp-cms-ssl.key;
+    ssl_certificate /etc/ssl/cert.pem;
+    ssl_certificate_key /etc/ssl/key.pem;
 
     # Proxy Config
     location / {
