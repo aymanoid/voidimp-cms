@@ -47,8 +47,9 @@ services:
       - strapi
 
   voidimp-nginx:
-    image: nginx:1.15-alpine
+    image: nginx:latest
     container_name: voidimp-nginx
+    restart: unless-stopped
     ports:
       - "80:80"
       - "443:443"
