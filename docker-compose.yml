@@ -55,7 +55,7 @@ services:
       - "443:443"
     volumes:
       - ./data/nginx:/etc/nginx/conf.d
-      - ./data/ssl:/ssl/
+      - ./data/ssl:/data/ssl
 
 networks:
   strapi:
