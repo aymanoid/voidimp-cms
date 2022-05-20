@@ -53,6 +53,8 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    networks:
+      - strapi
     volumes:
       - ./data/nginx:/etc/nginx/conf.d
       - ./data/ssl:/data/ssl
