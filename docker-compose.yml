@@ -53,7 +53,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./data/nginx/sites-available:/etc/nginx/sites-available
+      - ./data/nginx:/etc/nginx/conf.d
       - ./data/ssl:/ssl/
 
 networks:
