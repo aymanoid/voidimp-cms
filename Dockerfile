@@ -11,6 +11,7 @@ RUN yarn config set network-timeout 600000 -g
 RUN yarn install
 WORKDIR /opt/app
 COPY ./ .
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 RUN yarn build
 EXPOSE 1337
 CMD ["yarn", "start"]
