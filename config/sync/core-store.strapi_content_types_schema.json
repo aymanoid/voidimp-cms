@@ -1400,15 +1400,13 @@
           "type": "relation",
           "relation": "manyToOne",
           "target": "api::author.author",
-          "inversedBy": "articles",
-          "required": true
+          "inversedBy": "articles"
         },
         "category": {
           "type": "relation",
           "relation": "manyToOne",
           "target": "api::category.category",
-          "inversedBy": "articles",
-          "required": true
+          "inversedBy": "articles"
         },
         "tags": {
           "type": "relation",
@@ -1440,6 +1438,16 @@
           ],
           "required": true,
           "min": 1
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": true,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -1542,15 +1550,13 @@
             "type": "relation",
             "relation": "manyToOne",
             "target": "api::author.author",
-            "inversedBy": "articles",
-            "required": true
+            "inversedBy": "articles"
           },
           "category": {
             "type": "relation",
             "relation": "manyToOne",
             "target": "api::category.category",
-            "inversedBy": "articles",
-            "required": true
+            "inversedBy": "articles"
           },
           "tags": {
             "type": "relation",
@@ -1582,6 +1588,16 @@
             ],
             "required": true,
             "min": 1
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -1601,7 +1617,8 @@
       "info": {
         "singularName": "author",
         "pluralName": "authors",
-        "displayName": "Author"
+        "displayName": "Author",
+        "description": ""
       },
       "options": {
         "draftAndPublish": true
@@ -1630,17 +1647,17 @@
           "type": "text"
         },
         "avatar": {
+          "type": "media",
+          "multiple": false,
+          "required": true,
           "allowedTypes": [
             "images"
           ],
-          "type": "media",
-          "multiple": false,
           "pluginOptions": {
             "i18n": {
               "localized": true
             }
-          },
-          "required": true
+          }
         },
         "slug": {
           "pluginOptions": {
@@ -1656,6 +1673,16 @@
           "relation": "oneToMany",
           "target": "api::article.article",
           "mappedBy": "author"
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": true,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -1711,7 +1738,8 @@
         "info": {
           "singularName": "author",
           "pluralName": "authors",
-          "displayName": "Author"
+          "displayName": "Author",
+          "description": ""
         },
         "options": {
           "draftAndPublish": true
@@ -1740,17 +1768,17 @@
             "type": "text"
           },
           "avatar": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
             "allowedTypes": [
               "images"
             ],
-            "type": "media",
-            "multiple": false,
             "pluginOptions": {
               "i18n": {
                 "localized": true
               }
-            },
-            "required": true
+            }
           },
           "slug": {
             "pluginOptions": {
@@ -1766,6 +1794,16 @@
             "relation": "oneToMany",
             "target": "api::article.article",
             "mappedBy": "author"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -1821,6 +1859,16 @@
           "relation": "oneToMany",
           "target": "api::article.article",
           "mappedBy": "category"
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": true,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -1912,6 +1960,16 @@
             "relation": "oneToMany",
             "target": "api::article.article",
             "mappedBy": "category"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -1969,6 +2027,16 @@
           },
           "type": "string",
           "required": true
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": true,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -2062,6 +2130,16 @@
             },
             "type": "string",
             "required": true
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "singleType"
@@ -2276,6 +2354,16 @@
           "component": "home-page.featured-articles",
           "max": 4
         },
+        "seo": {
+          "type": "component",
+          "repeatable": true,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -2358,6 +2446,16 @@
             },
             "component": "home-page.featured-articles",
             "max": 4
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "singleType"
@@ -2377,7 +2475,8 @@
       "info": {
         "singularName": "tag",
         "pluralName": "tags",
-        "displayName": "Tag"
+        "displayName": "Tag",
+        "description": ""
       },
       "options": {
         "draftAndPublish": true
@@ -2412,6 +2511,16 @@
           "relation": "manyToMany",
           "target": "api::article.article",
           "mappedBy": "tags"
+        },
+        "seo": {
+          "type": "component",
+          "repeatable": true,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -2467,7 +2576,8 @@
         "info": {
           "singularName": "tag",
           "pluralName": "tags",
-          "displayName": "Tag"
+          "displayName": "Tag",
+          "description": ""
         },
         "options": {
           "draftAndPublish": true
@@ -2502,6 +2612,16 @@
             "relation": "manyToMany",
             "target": "api::article.article",
             "mappedBy": "tags"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo"
           }
         },
         "kind": "collectionType"

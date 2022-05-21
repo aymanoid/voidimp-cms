@@ -135,6 +135,20 @@
           "sortable": false
         }
       },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -186,7 +200,15 @@
           {
             "name": "mainImage",
             "size": 6
-          },
+          }
+        ],
+        [
+          {
+            "name": "blocks",
+            "size": 12
+          }
+        ],
+        [
           {
             "name": "slug",
             "size": 6
@@ -194,7 +216,7 @@
         ],
         [
           {
-            "name": "blocks",
+            "name": "seo",
             "size": 12
           }
         ]

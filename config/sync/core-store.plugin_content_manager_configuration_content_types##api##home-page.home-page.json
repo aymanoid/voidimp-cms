@@ -49,6 +49,20 @@
           "sortable": false
         }
       },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -89,6 +103,12 @@
         [
           {
             "name": "featuredArticles",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
             "size": 12
           }
         ]
