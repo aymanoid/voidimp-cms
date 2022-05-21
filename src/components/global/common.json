@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_commons",
+  "info": {
+    "displayName": "common",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link",
+      "required": true
+    }
+  }
+}

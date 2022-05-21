@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_footer_navigations",
+  "info": {
+    "displayName": "footerColumns",
+    "icon": "yen-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

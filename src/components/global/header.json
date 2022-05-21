@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "searchBarLabel": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}

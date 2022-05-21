@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "haykal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerDescription": {
+      "type": "text",
+      "required": true
+    },
+    "footerRights": {
+      "type": "string",
+      "required": true
+    },
+    "footerColumns": {
+      "displayName": "footerNavigation",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.footer-navigation",
+      "required": true
+    }
+  }
+}
