@@ -1,0 +1,59 @@
+{
+  "key": "plugin_content_manager_configuration_components::home-page.featured-articles",
+  "value": {
+    "uid": "home-page.featured-articles",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "featuredArticle": {
+        "edit": {
+          "label": "featuredArticle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "headline"
+        },
+        "list": {
+          "label": "featuredArticle",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "featuredArticle"
+      ],
+      "edit": [
+        [
+          {
+            "name": "featuredArticle",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
