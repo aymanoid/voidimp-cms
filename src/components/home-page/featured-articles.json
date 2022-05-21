@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_page_featured_articles",
+  "info": {
+    "displayName": "featuredArticles",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "featuredArticle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article",
+      "required": true
+    }
+  }
+}
