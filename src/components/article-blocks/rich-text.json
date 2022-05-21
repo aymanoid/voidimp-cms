@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_article_rich_texts",
+  "info": {
+    "displayName": "text",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

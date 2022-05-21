@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_article_blocks_timelines",
+  "info": {
+    "displayName": "timeline",
+    "icon": "chart-line",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "displayName": "show",
+      "type": "component",
+      "repeatable": true,
+      "component": "article-blocks.show",
+      "required": true
+    }
+  }
+}

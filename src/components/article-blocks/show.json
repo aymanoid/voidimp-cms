@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_article_blocks_shows",
+  "info": {
+    "displayName": "show",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ],
+      "required": true
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}
