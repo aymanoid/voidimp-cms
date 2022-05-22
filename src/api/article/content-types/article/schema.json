@@ -99,6 +99,22 @@
         }
       },
       "component": "shared.seo"
+    },
+    "manualPublishedAt": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "datetime"
+    },
+    "manualUpdatedAt": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "datetime"
     }
   }
 }
