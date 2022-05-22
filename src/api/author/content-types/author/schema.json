@@ -53,7 +53,8 @@
         }
       },
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "displayName"
     },
     "articles": {
       "type": "relation",
