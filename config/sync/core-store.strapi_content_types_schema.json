@@ -1371,7 +1371,7 @@
               "localized": true
             }
           },
-          "type": "string",
+          "type": "text",
           "required": true
         },
         "subheadline": {
@@ -1380,7 +1380,7 @@
               "localized": true
             }
           },
-          "type": "string",
+          "type": "text",
           "required": true
         },
         "mainImage": {
@@ -1432,8 +1432,8 @@
           },
           "type": "dynamiczone",
           "components": [
-            "article-blocks.rich-text",
             "article-blocks.image",
+            "article-blocks.rich-text",
             "article-blocks.timeline"
           ],
           "required": true,
@@ -1537,7 +1537,7 @@
                 "localized": true
               }
             },
-            "type": "string",
+            "type": "text",
             "required": true
           },
           "subheadline": {
@@ -1546,7 +1546,7 @@
                 "localized": true
               }
             },
-            "type": "string",
+            "type": "text",
             "required": true
           },
           "mainImage": {
@@ -1598,8 +1598,8 @@
             },
             "type": "dynamiczone",
             "components": [
-              "article-blocks.rich-text",
               "article-blocks.image",
+              "article-blocks.rich-text",
               "article-blocks.timeline"
             ],
             "required": true,
