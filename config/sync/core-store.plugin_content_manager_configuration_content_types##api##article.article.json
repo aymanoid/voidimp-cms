@@ -149,6 +149,34 @@
           "sortable": false
         }
       },
+      "manualPublishedAt": {
+        "edit": {
+          "label": "manualPublishedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "manualPublishedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "manualUpdatedAt": {
+        "edit": {
+          "label": "manualUpdatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "manualUpdatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -194,6 +222,10 @@
           {
             "name": "mainImage",
             "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
           }
         ],
         [
@@ -204,7 +236,11 @@
         ],
         [
           {
-            "name": "slug",
+            "name": "manualPublishedAt",
+            "size": 6
+          },
+          {
+            "name": "manualUpdatedAt",
             "size": 6
           }
         ],

@@ -1449,6 +1449,22 @@
           },
           "component": "shared.seo"
         },
+        "manualPublishedAt": {
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "type": "datetime"
+        },
+        "manualUpdatedAt": {
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "type": "datetime"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -1598,6 +1614,22 @@
               }
             },
             "component": "shared.seo"
+          },
+          "manualPublishedAt": {
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "type": "datetime"
+          },
+          "manualUpdatedAt": {
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "type": "datetime"
           }
         },
         "kind": "collectionType"
@@ -1673,16 +1705,6 @@
           "relation": "oneToMany",
           "target": "api::article.article",
           "mappedBy": "author"
-        },
-        "seo": {
-          "type": "component",
-          "repeatable": true,
-          "pluginOptions": {
-            "i18n": {
-              "localized": true
-            }
-          },
-          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -1794,16 +1816,6 @@
             "relation": "oneToMany",
             "target": "api::article.article",
             "mappedBy": "author"
-          },
-          "seo": {
-            "type": "component",
-            "repeatable": true,
-            "pluginOptions": {
-              "i18n": {
-                "localized": true
-              }
-            },
-            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -1859,16 +1871,6 @@
           "relation": "oneToMany",
           "target": "api::article.article",
           "mappedBy": "category"
-        },
-        "seo": {
-          "type": "component",
-          "repeatable": true,
-          "pluginOptions": {
-            "i18n": {
-              "localized": true
-            }
-          },
-          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -1960,16 +1962,6 @@
             "relation": "oneToMany",
             "target": "api::article.article",
             "mappedBy": "category"
-          },
-          "seo": {
-            "type": "component",
-            "repeatable": true,
-            "pluginOptions": {
-              "i18n": {
-                "localized": true
-              }
-            },
-            "component": "shared.seo"
           }
         },
         "kind": "collectionType"
@@ -2027,16 +2019,6 @@
           },
           "type": "string",
           "required": true
-        },
-        "seo": {
-          "type": "component",
-          "repeatable": true,
-          "pluginOptions": {
-            "i18n": {
-              "localized": true
-            }
-          },
-          "component": "shared.seo"
         },
         "createdAt": {
           "type": "datetime"
@@ -2130,16 +2112,6 @@
             },
             "type": "string",
             "required": true
-          },
-          "seo": {
-            "type": "component",
-            "repeatable": true,
-            "pluginOptions": {
-              "i18n": {
-                "localized": true
-              }
-            },
-            "component": "shared.seo"
           }
         },
         "kind": "singleType"
@@ -2512,16 +2484,6 @@
           "target": "api::article.article",
           "mappedBy": "tags"
         },
-        "seo": {
-          "type": "component",
-          "repeatable": true,
-          "pluginOptions": {
-            "i18n": {
-              "localized": true
-            }
-          },
-          "component": "shared.seo"
-        },
         "createdAt": {
           "type": "datetime"
         },
@@ -2612,16 +2574,6 @@
             "relation": "manyToMany",
             "target": "api::article.article",
             "mappedBy": "tags"
-          },
-          "seo": {
-            "type": "component",
-            "repeatable": true,
-            "pluginOptions": {
-              "i18n": {
-                "localized": true
-              }
-            },
-            "component": "shared.seo"
           }
         },
         "kind": "collectionType"

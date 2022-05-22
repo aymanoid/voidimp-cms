@@ -62,20 +62,6 @@
           "sortable": true
         }
       },
-      "seo": {
-        "edit": {
-          "label": "seo",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "seo",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -127,12 +113,6 @@
           {
             "name": "backButton",
             "size": 6
-          }
-        ],
-        [
-          {
-            "name": "seo",
-            "size": 12
           }
         ]
       ],
