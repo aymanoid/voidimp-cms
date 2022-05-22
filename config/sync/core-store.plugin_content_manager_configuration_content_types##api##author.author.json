@@ -135,12 +135,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "displayName",
-        "bio",
-        "avatar"
-      ],
       "edit": [
         [
           {
@@ -171,6 +165,13 @@
       ],
       "editRelations": [
         "articles"
+      ],
+      "list": [
+        "id",
+        "displayName",
+        "bio",
+        "avatar",
+        "slug"
       ]
     }
   },
