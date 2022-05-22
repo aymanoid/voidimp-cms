@@ -230,18 +230,18 @@
         ],
         [
           {
-            "name": "blocks",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "manualPublishedAt",
             "size": 6
           },
           {
             "name": "manualUpdatedAt",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "blocks",
+            "size": 12
           }
         ],
         [
