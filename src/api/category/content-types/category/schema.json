@@ -40,16 +40,6 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "category"
-    },
-    "seo": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.seo"
     }
   }
 }
