@@ -9,11 +9,11 @@
   "attributes": {
     "metaTitle": {
       "required": true,
-      "type": "string",
+      "type": "text",
       "maxLength": 60
     },
     "metaDescription": {
-      "type": "string",
+      "type": "text",
       "required": true,
       "maxLength": 160,
       "minLength": 50
