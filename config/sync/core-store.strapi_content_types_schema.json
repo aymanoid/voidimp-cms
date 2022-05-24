@@ -2338,6 +2338,17 @@
           },
           "component": "shared.seo"
         },
+        "trendingArticles": {
+          "type": "component",
+          "repeatable": true,
+          "pluginOptions": {
+            "i18n": {
+              "localized": false
+            }
+          },
+          "component": "home-page.trending-articles",
+          "max": 4
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -2430,6 +2441,17 @@
               }
             },
             "component": "shared.seo"
+          },
+          "trendingArticles": {
+            "type": "component",
+            "repeatable": true,
+            "pluginOptions": {
+              "i18n": {
+                "localized": false
+              }
+            },
+            "component": "home-page.trending-articles",
+            "max": 4
           }
         },
         "kind": "singleType"

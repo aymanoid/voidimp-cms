@@ -63,6 +63,20 @@
           "sortable": false
         }
       },
+      "trendingArticles": {
+        "edit": {
+          "label": "trendingArticles",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "trendingArticles",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -93,16 +107,16 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "heroArticle",
-        "createdAt",
-        "updatedAt"
-      ],
       "edit": [
         [
           {
             "name": "featuredArticles",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "trendingArticles",
             "size": 12
           }
         ],
@@ -115,6 +129,12 @@
       ],
       "editRelations": [
         "heroArticle"
+      ],
+      "list": [
+        "id",
+        "heroArticle",
+        "createdAt",
+        "updatedAt"
       ]
     }
   },

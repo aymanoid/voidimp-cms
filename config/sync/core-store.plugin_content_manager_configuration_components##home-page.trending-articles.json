@@ -1,0 +1,59 @@
+{
+  "key": "plugin_content_manager_configuration_components::home-page.trending-articles",
+  "value": {
+    "uid": "home-page.trending-articles",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "trendingArticle": {
+        "edit": {
+          "label": "trendingArticle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "trendingArticle",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "trendingArticle"
+      ],
+      "editRelations": [],
+      "edit": [
+        [
+          {
+            "name": "trendingArticle",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

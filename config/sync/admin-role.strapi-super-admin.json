@@ -470,7 +470,8 @@
           "seo.metaRobots",
           "seo.structuredData",
           "seo.metaViewport",
-          "seo.canonicalURL"
+          "seo.canonicalURL",
+          "trendingArticles.trendingArticle"
         ],
         "locales": [
           "en",
@@ -519,7 +520,8 @@
           "seo.metaRobots",
           "seo.structuredData",
           "seo.metaViewport",
-          "seo.canonicalURL"
+          "seo.canonicalURL",
+          "trendingArticles.trendingArticle"
         ],
         "locales": [
           "en",
@@ -546,7 +548,8 @@
           "seo.metaRobots",
           "seo.structuredData",
           "seo.metaViewport",
-          "seo.canonicalURL"
+          "seo.canonicalURL",
+          "trendingArticles.trendingArticle"
         ],
         "locales": [
           "en",
