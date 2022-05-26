@@ -7,7 +7,7 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "footerRights",
+      "mainField": "id",
       "defaultSortBy": "footerRights",
       "defaultSortOrder": "ASC"
     },
@@ -22,7 +22,7 @@
       },
       "footerDescription": {
         "edit": {
-          "label": "footerDescription",
+          "label": "Footer Description",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "footerRights": {
         "edit": {
-          "label": "footerRights",
+          "label": "Footer Rights",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "footerColumns": {
         "edit": {
-          "label": "footerColumns",
+          "label": "Footer Columns",
           "description": "",
           "placeholder": "",
           "visible": true,

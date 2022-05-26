@@ -22,7 +22,7 @@
       },
       "name": {
         "edit": {
-          "label": "name",
+          "label": "Name",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "slug": {
         "edit": {
-          "label": "slug",
+          "label": "Slug",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,12 +50,12 @@
       },
       "articles": {
         "edit": {
-          "label": "articles",
+          "label": "Articles",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true,
-          "mainField": "headline"
+          "mainField": "slug"
         },
         "list": {
           "label": "articles",
@@ -93,12 +93,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "name",
-        "slug",
-        "createdAt"
-      ],
       "edit": [
         [
           {
@@ -113,6 +107,12 @@
       ],
       "editRelations": [
         "articles"
+      ],
+      "list": [
+        "id",
+        "name",
+        "slug",
+        "createdAt"
       ]
     }
   },

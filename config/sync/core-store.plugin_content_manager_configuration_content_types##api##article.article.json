@@ -7,7 +7,7 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "headline",
+      "mainField": "slug",
       "defaultSortBy": "headline",
       "defaultSortOrder": "ASC"
     },
@@ -22,7 +22,7 @@
       },
       "headline": {
         "edit": {
-          "label": "headline",
+          "label": "Headline",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "subheadline": {
         "edit": {
-          "label": "subheadline",
+          "label": "Subheadline",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "mainImage": {
         "edit": {
-          "label": "mainImage",
+          "label": "Main Image",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "author": {
         "edit": {
-          "label": "author",
+          "label": "Author",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -79,7 +79,7 @@
       },
       "category": {
         "edit": {
-          "label": "category",
+          "label": "Category",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -94,7 +94,7 @@
       },
       "tags": {
         "edit": {
-          "label": "tags",
+          "label": "Tags",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -109,7 +109,7 @@
       },
       "slug": {
         "edit": {
-          "label": "slug",
+          "label": "Slug",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -137,7 +137,7 @@
       },
       "seo": {
         "edit": {
-          "label": "seo",
+          "label": "SEO",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -151,7 +151,7 @@
       },
       "manualPublishedAt": {
         "edit": {
-          "label": "manualPublishedAt",
+          "label": "Manual Published At",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -165,7 +165,7 @@
       },
       "manualUpdatedAt": {
         "edit": {
-          "label": "manualUpdatedAt",
+          "label": "Manual Updated At",
           "description": "",
           "placeholder": "",
           "visible": true,

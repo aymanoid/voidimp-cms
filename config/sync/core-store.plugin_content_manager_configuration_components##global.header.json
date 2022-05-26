@@ -22,7 +22,7 @@
       },
       "searchBarLabel": {
         "edit": {
-          "label": "searchBarLabel",
+          "label": "Search Bar Label",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "links": {
         "edit": {
-          "label": "links",
+          "label": "Links",
           "description": "",
           "placeholder": "",
           "visible": true,

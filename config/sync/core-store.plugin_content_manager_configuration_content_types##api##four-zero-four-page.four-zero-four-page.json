@@ -7,7 +7,7 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "firstText",
+      "mainField": "id",
       "defaultSortBy": "firstText",
       "defaultSortOrder": "ASC"
     },
@@ -22,7 +22,7 @@
       },
       "firstText": {
         "edit": {
-          "label": "firstText",
+          "label": "First Text",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "secondText": {
         "edit": {
-          "label": "secondText",
+          "label": "Second Text",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "backButton": {
         "edit": {
-          "label": "backButton",
+          "label": "Back Button",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -92,12 +92,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "firstText",
-        "createdAt",
-        "updatedAt"
-      ],
       "edit": [
         [
           {
@@ -116,7 +110,13 @@
           }
         ]
       ],
-      "editRelations": []
+      "editRelations": [],
+      "list": [
+        "id",
+        "firstText",
+        "createdAt",
+        "updatedAt"
+      ]
     }
   },
   "type": "object",

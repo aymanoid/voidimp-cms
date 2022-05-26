@@ -22,7 +22,7 @@
       },
       "displayName": {
         "edit": {
-          "label": "displayName",
+          "label": "Display Name",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "bio": {
         "edit": {
-          "label": "bio",
+          "label": "Bio",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "avatar": {
         "edit": {
-          "label": "avatar",
+          "label": "Avatar",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "slug": {
         "edit": {
-          "label": "slug",
+          "label": "Slug",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -78,12 +78,12 @@
       },
       "articles": {
         "edit": {
-          "label": "articles",
+          "label": "Articles",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true,
-          "mainField": "headline"
+          "mainField": "slug"
         },
         "list": {
           "label": "articles",
@@ -121,13 +121,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "displayName",
-        "bio",
-        "avatar",
-        "slug"
-      ],
       "edit": [
         [
           {
@@ -152,6 +145,13 @@
       ],
       "editRelations": [
         "articles"
+      ],
+      "list": [
+        "id",
+        "displayName",
+        "bio",
+        "avatar",
+        "slug"
       ]
     }
   },

@@ -22,12 +22,12 @@
       },
       "heroArticle": {
         "edit": {
-          "label": "heroArticle",
+          "label": "Hero Article",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true,
-          "mainField": "headline"
+          "mainField": "slug"
         },
         "list": {
           "label": "heroArticle",
@@ -37,7 +37,7 @@
       },
       "featuredArticles": {
         "edit": {
-          "label": "featuredArticles",
+          "label": "Featured Articles",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -51,7 +51,7 @@
       },
       "seo": {
         "edit": {
-          "label": "seo",
+          "label": "SEO",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -65,7 +65,7 @@
       },
       "trendingArticles": {
         "edit": {
-          "label": "trendingArticles",
+          "label": "Trending Articles",
           "description": "",
           "placeholder": "",
           "visible": true,

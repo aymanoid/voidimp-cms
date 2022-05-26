@@ -22,7 +22,7 @@
       },
       "header": {
         "edit": {
-          "label": "header",
+          "label": "Header",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "footer": {
         "edit": {
-          "label": "footer",
+          "label": "Footer",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "common": {
         "edit": {
-          "label": "common",
+          "label": "Common",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "seo": {
         "edit": {
-          "label": "seo",
+          "label": "SEO",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -106,12 +106,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "header"
-      ],
       "edit": [
         [
           {
@@ -138,7 +132,13 @@
           }
         ]
       ],
-      "editRelations": []
+      "editRelations": [],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "header"
+      ]
     }
   },
   "type": "object",

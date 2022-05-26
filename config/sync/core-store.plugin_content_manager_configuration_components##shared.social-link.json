@@ -7,7 +7,7 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "label",
+      "mainField": "social",
       "defaultSortBy": "label",
       "defaultSortOrder": "ASC"
     },
@@ -22,7 +22,7 @@
       },
       "href": {
         "edit": {
-          "label": "href",
+          "label": "HREF",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "label": {
         "edit": {
-          "label": "label",
+          "label": "Label",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "social": {
         "edit": {
-          "label": "social",
+          "label": "Social",
           "description": "",
           "placeholder": "",
           "visible": true,

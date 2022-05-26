@@ -22,12 +22,12 @@
       },
       "featuredArticle": {
         "edit": {
-          "label": "featuredArticle",
+          "label": "Featured Article",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true,
-          "mainField": "headline"
+          "mainField": "slug"
         },
         "list": {
           "label": "featuredArticle",

@@ -22,12 +22,12 @@
       },
       "trendingArticle": {
         "edit": {
-          "label": "trendingArticle",
+          "label": "Trending Article",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true,
-          "mainField": "id"
+          "mainField": "slug"
         },
         "list": {
           "label": "trendingArticle",

@@ -22,7 +22,7 @@
       },
       "socialLinks": {
         "edit": {
-          "label": "socialLinks",
+          "label": "Social Links",
           "description": "",
           "placeholder": "",
           "visible": true,

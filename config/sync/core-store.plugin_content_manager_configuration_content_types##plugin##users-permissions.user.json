@@ -22,7 +22,7 @@
       },
       "username": {
         "edit": {
-          "label": "username",
+          "label": "Username",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "email": {
         "edit": {
-          "label": "email",
+          "label": "Email",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "password": {
         "edit": {
-          "label": "password",
+          "label": "Password",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -106,7 +106,7 @@
       },
       "confirmed": {
         "edit": {
-          "label": "confirmed",
+          "label": "Confirmed",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -120,7 +120,7 @@
       },
       "blocked": {
         "edit": {
-          "label": "blocked",
+          "label": "Blocked",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -134,7 +134,7 @@
       },
       "role": {
         "edit": {
-          "label": "role",
+          "label": "Role",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -177,12 +177,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "username",
-        "email",
-        "confirmed"
-      ],
       "edit": [
         [
           {
@@ -213,6 +207,12 @@
       ],
       "editRelations": [
         "role"
+      ],
+      "list": [
+        "id",
+        "username",
+        "email",
+        "confirmed"
       ]
     }
   },
