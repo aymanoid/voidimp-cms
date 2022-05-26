@@ -2358,7 +2358,8 @@
               "localized": true
             }
           },
-          "component": "shared.seo"
+          "component": "shared.seo",
+          "required": true
         },
         "trendingArticles": {
           "type": "component",
@@ -2462,7 +2463,8 @@
                 "localized": true
               }
             },
-            "component": "shared.seo"
+            "component": "shared.seo",
+            "required": true
           },
           "trendingArticles": {
             "type": "component",
