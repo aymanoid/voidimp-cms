@@ -365,7 +365,19 @@
           "footer.footerColumns.links.isExternal",
           "common.socialLinks.href",
           "common.socialLinks.label",
-          "common.socialLinks.social"
+          "common.socialLinks.social",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
         ],
         "locales": [
           "en",
@@ -415,7 +427,19 @@
           "footer.footerColumns.links.isExternal",
           "common.socialLinks.href",
           "common.socialLinks.label",
-          "common.socialLinks.social"
+          "common.socialLinks.social",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
         ],
         "locales": [
           "en",
@@ -443,7 +467,19 @@
           "footer.footerColumns.links.isExternal",
           "common.socialLinks.href",
           "common.socialLinks.label",
-          "common.socialLinks.social"
+          "common.socialLinks.social",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
         ],
         "locales": [
           "en",

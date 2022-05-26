@@ -2180,6 +2180,17 @@
           },
           "component": "global.common"
         },
+        "seo": {
+          "type": "component",
+          "repeatable": false,
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          },
+          "component": "shared.seo",
+          "required": true
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -2280,6 +2291,17 @@
               }
             },
             "component": "global.common"
+          },
+          "seo": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
+              }
+            },
+            "component": "shared.seo",
+            "required": true
           }
         },
         "kind": "singleType"
