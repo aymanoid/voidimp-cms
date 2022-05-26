@@ -2350,17 +2350,6 @@
           "component": "home-page.featured-articles",
           "max": 4
         },
-        "seo": {
-          "type": "component",
-          "repeatable": false,
-          "pluginOptions": {
-            "i18n": {
-              "localized": true
-            }
-          },
-          "component": "shared.seo",
-          "required": true
-        },
         "trendingArticles": {
           "type": "component",
           "repeatable": true,
@@ -2454,17 +2443,6 @@
             },
             "component": "home-page.featured-articles",
             "max": 4
-          },
-          "seo": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-              "i18n": {
-                "localized": true
-              }
-            },
-            "component": "shared.seo",
-            "required": true
           },
           "trendingArticles": {
             "type": "component",

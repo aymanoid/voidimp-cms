@@ -495,18 +495,6 @@
         "fields": [
           "heroArticle",
           "featuredArticles.featuredArticle",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
           "trendingArticles.trendingArticle"
         ],
         "locales": [
@@ -545,18 +533,6 @@
         "fields": [
           "heroArticle",
           "featuredArticles.featuredArticle",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
           "trendingArticles.trendingArticle"
         ],
         "locales": [
@@ -573,18 +549,6 @@
         "fields": [
           "heroArticle",
           "featuredArticles.featuredArticle",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
           "trendingArticles.trendingArticle"
         ],
         "locales": [

@@ -49,20 +49,6 @@
           "sortable": false
         }
       },
-      "seo": {
-        "edit": {
-          "label": "SEO",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "seo",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "trendingArticles": {
         "edit": {
           "label": "Trending Articles",
@@ -107,6 +93,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "heroArticle",
+        "createdAt",
+        "updatedAt"
+      ],
       "edit": [
         [
           {
@@ -119,22 +111,10 @@
             "name": "trendingArticles",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "seo",
-            "size": 12
-          }
         ]
       ],
       "editRelations": [
         "heroArticle"
-      ],
-      "list": [
-        "id",
-        "heroArticle",
-        "createdAt",
-        "updatedAt"
       ]
     }
   },
