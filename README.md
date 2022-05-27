@@ -11,11 +11,14 @@
 
 This repository contains all the code for the backend part of the website (cms api & admin). The project utilizes Strapi as the main CMS because of its flexibility and extendiblity capabilities.
 
+The instance is deployed on an Ubuntu 20.04.4 ARM64 server as multiple Docker containers (Strapi, Postgres, and Nginx) running using Docker Compose.
+
 ## Tech Stack
 
 - [Node.js](https://github.com/nodejs/node)
 - [Strapi](https://github.com/strapi/strapi) 
 - [PostgreSQL](https://github.com/postgres/postgres)
+- [Nginx](https://github.com/nginx/nginx)
 - [Docker Compose](https://github.com/docker/compose)
 
 ## Notice
