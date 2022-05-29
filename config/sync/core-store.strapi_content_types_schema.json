@@ -2175,7 +2175,7 @@
           "repeatable": false,
           "pluginOptions": {
             "i18n": {
-              "localized": true
+              "localized": false
             }
           },
           "component": "global.common"
@@ -2287,7 +2287,7 @@
             "repeatable": false,
             "pluginOptions": {
               "i18n": {
-                "localized": true
+                "localized": false
               }
             },
             "component": "global.common"
