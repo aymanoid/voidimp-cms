@@ -7,11 +7,23 @@
   },
   "options": {},
   "attributes": {
-    "socialLinks": {
+    "twitter": {
+      "displayName": "socialNetwork",
       "type": "component",
-      "repeatable": true,
-      "component": "shared.social-link",
+      "repeatable": false,
+      "component": "global.social-network",
       "required": true
+    },
+    "instagram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.social-network"
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.social-network",
+      "required": false
     }
   }
 }

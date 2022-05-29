@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_social_networks",
+  "info": {
+    "displayName": "socialNetwork"
+  },
+  "options": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

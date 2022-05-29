@@ -20,16 +20,44 @@
           "sortable": false
         }
       },
-      "socialLinks": {
+      "twitter": {
         "edit": {
-          "label": "Social Links",
+          "label": "Twitter",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "socialLinks",
+          "label": "twitter",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "instagram": {
+        "edit": {
+          "label": "Instagram",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "instagram",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "youtube": {
+        "edit": {
+          "label": "YouTube",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "youtube",
           "searchable": false,
           "sortable": false
         }
@@ -38,12 +66,26 @@
     "layouts": {
       "list": [
         "id",
-        "socialLinks"
+        "twitter",
+        "instagram",
+        "youtube"
       ],
       "edit": [
         [
           {
-            "name": "socialLinks",
+            "name": "twitter",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "instagram",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "youtube",
             "size": 12
           }
         ]
