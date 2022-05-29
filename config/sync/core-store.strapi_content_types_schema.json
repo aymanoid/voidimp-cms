@@ -2185,7 +2185,7 @@
           "repeatable": false,
           "pluginOptions": {
             "i18n": {
-              "localized": true
+              "localized": false
             }
           },
           "component": "global.social-networks"
@@ -2296,7 +2296,7 @@
             "repeatable": false,
             "pluginOptions": {
               "i18n": {
-                "localized": true
+                "localized": false
               }
             },
             "component": "global.social-networks"
