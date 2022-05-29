@@ -2346,7 +2346,7 @@
           "repeatable": true,
           "pluginOptions": {
             "i18n": {
-              "localized": false
+              "localized": true
             }
           },
           "component": "home-page.featured-articles",
@@ -2357,7 +2357,7 @@
           "repeatable": true,
           "pluginOptions": {
             "i18n": {
-              "localized": false
+              "localized": true
             }
           },
           "component": "home-page.trending-articles",
@@ -2440,7 +2440,7 @@
             "repeatable": true,
             "pluginOptions": {
               "i18n": {
-                "localized": false
+                "localized": true
               }
             },
             "component": "home-page.featured-articles",
@@ -2451,7 +2451,7 @@
             "repeatable": true,
             "pluginOptions": {
               "i18n": {
-                "localized": false
+                "localized": true
               }
             },
             "component": "home-page.trending-articles",

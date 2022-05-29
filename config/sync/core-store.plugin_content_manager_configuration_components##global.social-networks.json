@@ -16,8 +16,8 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": true,
-          "sortable": true
+          "searchable": false,
+          "sortable": false
         }
       },
       "twitter": {
@@ -70,7 +70,6 @@
         "instagram",
         "youtube"
       ],
-      "editRelations": [],
       "edit": [
         [
           {
@@ -90,7 +89,8 @@
             "size": 12
           }
         ]
-      ]
+      ],
+      "editRelations": []
     },
     "isComponent": true
   },
