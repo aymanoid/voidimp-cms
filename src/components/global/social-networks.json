@@ -6,22 +6,21 @@
   "options": {},
   "attributes": {
     "twitter": {
-      "displayName": "socialNetwork",
+      "displayName": "social",
       "type": "component",
       "repeatable": false,
-      "component": "global.social-network",
+      "component": "global.social",
       "required": true
     },
     "instagram": {
       "type": "component",
       "repeatable": false,
-      "component": "global.social-network"
+      "component": "global.social"
     },
     "youtube": {
       "type": "component",
       "repeatable": false,
-      "component": "global.social-network",
-      "required": false
+      "component": "global.social"
     }
   }
 }

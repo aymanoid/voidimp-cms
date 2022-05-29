@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_global_social_networks",
+  "collectionName": "components_global_socials",
   "info": {
-    "displayName": "socialNetwork"
+    "displayName": "social"
   },
   "options": {},
   "attributes": {

@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_components::global.social-network",
+  "key": "plugin_content_manager_configuration_components::global.social",
   "value": {
-    "uid": "global.social-network",
+    "uid": "global.social",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -16,8 +16,8 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": false,
-          "sortable": false
+          "searchable": true,
+          "sortable": true
         }
       },
       "username": {
@@ -40,6 +40,7 @@
         "id",
         "username"
       ],
+      "editRelations": [],
       "edit": [
         [
           {
@@ -47,8 +48,7 @@
             "size": 6
           }
         ]
-      ],
-      "editRelations": []
+      ]
     },
     "isComponent": true
   },

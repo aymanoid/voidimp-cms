@@ -2181,6 +2181,7 @@
           "required": true
         },
         "socialNetworks": {
+          "displayName": "socialNetworks",
           "type": "component",
           "repeatable": false,
           "pluginOptions": {
@@ -2188,7 +2189,8 @@
               "localized": false
             }
           },
-          "component": "global.social-networks"
+          "component": "global.social-networks",
+          "required": true
         },
         "createdAt": {
           "type": "datetime"
@@ -2292,6 +2294,7 @@
             "required": true
           },
           "socialNetworks": {
+            "displayName": "socialNetworks",
             "type": "component",
             "repeatable": false,
             "pluginOptions": {
@@ -2299,7 +2302,8 @@
                 "localized": false
               }
             },
-            "component": "global.social-networks"
+            "component": "global.social-networks",
+            "required": true
           }
         },
         "kind": "singleType"
