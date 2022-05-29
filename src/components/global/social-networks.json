@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_global_social_networks",
+  "info": {
+    "displayName": "socialNetworks"
+  },
+  "options": {},
+  "attributes": {
+    "twitter": {
+      "displayName": "socialNetwork",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.social-network",
+      "required": true
+    },
+    "instagram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.social-network"
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.social-network",
+      "required": false
+    }
+  }
+}

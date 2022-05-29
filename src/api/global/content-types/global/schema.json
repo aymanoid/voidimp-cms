@@ -40,17 +40,6 @@
       "component": "global.footer",
       "required": true
     },
-    "common": {
-      "displayName": "common",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "global.common"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
@@ -61,6 +50,16 @@
       },
       "component": "shared.seo",
       "required": true
+    },
+    "socialNetworks": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "global.social-networks"
     }
   }
 }

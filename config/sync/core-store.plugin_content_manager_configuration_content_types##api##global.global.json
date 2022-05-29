@@ -48,20 +48,6 @@
           "sortable": false
         }
       },
-      "common": {
-        "edit": {
-          "label": "Common",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "common",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "seo": {
         "edit": {
           "label": "SEO",
@@ -72,6 +58,20 @@
         },
         "list": {
           "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "socialNetworks": {
+        "edit": {
+          "label": "Social Networks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "socialNetworks",
           "searchable": false,
           "sortable": false
         }
@@ -121,7 +121,7 @@
         ],
         [
           {
-            "name": "common",
+            "name": "socialNetworks",
             "size": 12
           }
         ],
